@@ -6,4 +6,7 @@ export default antfu({
         quotes: 'single', // or 'double'
     },
     yaml: false,
+    typescript: {
+        tsconfigPath: 'tsconfig.json',
+    },
 })
