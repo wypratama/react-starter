@@ -5,4 +5,5 @@ export default antfu({
         indent: 4, // 4, or 'tab'
         quotes: 'single', // or 'double'
     },
+    yaml: false,
 })
